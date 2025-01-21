@@ -1,0 +1,139 @@
+body {
+     font-family: 'Arial', sans-serif;
+     background-color: #f4f4f4;
+     color: #333;
+     line-height: 1.6;
+ }
+ 
+ header {
+     background: linear-gradient(135deg, #1e3c72, #2a5298, #3b5998); /* Shadow transitioned blue */
+     color: white;
+     text-align: center;
+     padding: 50px 0;
+     box-shadow: 0 8px 15px rgba(23, 23, 23, 0.2); /* Subtle shadow effect */
+ }
+ 
+/* Add this new CSS */
+.profile-picture {
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
+ .profile-picture img {
+     width: 150px; /* Adjust size as needed */
+     height: 150px;
+     border-radius: 50%; /* Make the image circular */
+     border: 4px solid #fff;
+     box-shadow: 0 8px 15px rgba(27, 26, 26, 0.2);
+     object-fit: cover; /* Ensures the image covers the circle properly */
+ }
+ 
+
+ nav ul {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ nav ul li {
+     display: inline;
+     margin: 0 15px;
+ }
+ 
+ nav ul li a {
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+     transition: color 0.3s ease;
+ }
+ 
+ nav ul li a:hover {
+     color: #6fd7ec; /* Transition color on hover */
+ }
+ 
+ .hero {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 70vh;
+     background: linear-gradient(135deg, #95b5f0, #5084dd, #3d5891);
+     box-shadow: 0 8px 15px rgba(41, 40, 40, 0.2);
+ }
+ 
+ .hero-content {
+     text-align: center;
+     background-color: rgba(31, 28, 28, 0.5);
+     padding: 20px;
+     border-radius: 10px;
+ }
+ 
+ .hero .btn {
+     background: #f39c12;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     text-decoration: none;
+     font-weight: bold;
+     transition:  0.3s ease, transform 0.3s ease;
+ }
+ 
+ .hero .btn:hover {
+     background: #d35400;
+     transform: translateY(-3px);
+ }
+ 
+ .section {
+     padding: 50px;
+     text-align: center;
+ }
+ 
+ .skills-list {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin: 20px 0;
+ }
+ 
+ .skill-item {
+     width: 200px;
+     background: #fff;
+     border-radius: 10px;
+     padding: 15px;
+     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+     margin: 10px;
+     transition: box-shadow 0.3s ease, transform 0.3s ease;
+ }
+ 
+ .skill-item:hover {
+     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+     transform: translateY(-5px);
+ }
+ 
+ .projects-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+ 
+ .project-card {
+     background: #fff;
+     border-radius: 10px;
+     padding: 20px;
+     width: 300px;
+     margin: 15px;
+     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+     transition: box-shadow 0.3s ease, transform 0.3s ease;
+ }
+ 
+ .project-card:hover {
+     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+     transform: translateY(-10px);
+ }
+ 
+ footer {
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+     padding: 20px;
+ }
+ 
